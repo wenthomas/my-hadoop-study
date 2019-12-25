@@ -70,6 +70,7 @@ public class MyUploadPartly {
      * 拆分下载：仅下载文件的前128M部分
      * @throws IOException
      */
+    //todo: 编写文件按照指定大小分段下载
     @Test
     public void downloadFilePartly() throws IOException {
         Path input = new Path("/hdfs/eclipse.zip");

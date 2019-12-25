@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2563cf99-78f0-45d1-a57e-805727882f37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wenthomas/hdfs/client/HdfsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wenthomas/hdfs/upload/MyUploadPartly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2563cf99-78f0-45d1-a57e-805727882f37" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -146,8 +144,16 @@
       <option name="presentableId" value="Default" />
       <updated>1577268330432</updated>
       <workItem from="1577268333939" duration="5146000" />
-      <workItem from="1577277129415" duration="2719000" />
+      <workItem from="1577277129415" duration="3044000" />
     </task>
+    <task id="LOCAL-00001" summary="0，配置jdk路径&#10;1，通过IO流上传文件至hdfs&#10;2, 通过IO流对hdfs上的文件进行拆分下载">
+      <created>1577280295786</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577280295786</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0，配置jdk路径&#10;1，通过IO流上传文件至hdfs&#10;2, 通过IO流对hdfs上的文件进行拆分下载" />
+    <option name="LAST_COMMIT_MESSAGE" value="0，配置jdk路径&#10;1，通过IO流上传文件至hdfs&#10;2, 通过IO流对hdfs上的文件进行拆分下载" />
   </component>
 </project>
