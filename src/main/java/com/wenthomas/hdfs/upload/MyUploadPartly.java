@@ -51,8 +51,8 @@ public class MyUploadPartly {
      */
     @Test
     public void putFileToHDFS() throws IOException {
-        File input = new File("E:\\1015\\my_data\\hdfs\\eclipse.zip");
-        Path output = new Path("/hdfs/eclipse.zip");
+        File input = new File("E:\\1015\\my_data\\mr\\hello.txt");
+        Path output = new Path("/mr/chapter01/hello.txt");
         //1, 获取hdfs客户端
         //FileSystem fileSystem = FileSystem.get(new URI("hdfs://hadoop01:9000"), configuration, "atguigu");
         //2, 创建输入流（本地）
