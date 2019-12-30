@@ -12,3 +12,9 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/hdfs/download/MyDownloadPartly.java)
 分块上传下载文件
 ### 5，文件详情操作
+
+## 二,MapReduce编程
+### 1，WordCount：MR基础编程
+[案例](src/main/java/com/wenthomas/mapreduce/wordcount/)
+### 2，自定义bean对象实现序列化接口（Writable）
+[案例](src/main/java/com/wenthomas/mapreduce/flowcount/)
