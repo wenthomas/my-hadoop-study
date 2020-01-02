@@ -26,3 +26,12 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/mapreduce/partition/)
 ### 5，自定义排序
 [案例](src/main/java/com/wenthomas/mapreduce/sort/)
+### 5，二次排序
+[案例](src/main/java/com/wenthomas/mapreduce/groupcompare/)<br/>
+可以有两种实现方式：<br/>
+[案例](src/main/java/com/wenthomas/mapreduce/groupcompare/MyComparator2.java)
+方式1：继承WritableComparator<br/>
+重写.compare(o1, o2)<br/>
+[案例](src/main/java/com/wenthomas/mapreduce/groupcompare/MyComparator1.java)
+方式2：实现RawComparator<br/>
+重写compare(byte[] b1, int s1, int l1, byte[] b2, int s2, int l2) 和 重写.compare(o1, o2)<br/>
