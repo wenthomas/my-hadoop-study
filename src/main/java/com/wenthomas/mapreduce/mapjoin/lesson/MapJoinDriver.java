@@ -20,8 +20,8 @@ public class MapJoinDriver {
 	
 	public static void main(String[] args) throws Exception {
 		
-		Path inputPath=new Path("e:/mrinput/mapjoin");
-		Path outputPath=new Path("e:/mroutput/mapjoin");
+		Path inputPath=new Path("E:\\1015\\my_data\\mr\\map_join\\order.txt");
+		Path outputPath=new Path("E:\\1015\\my_data\\mr\\map_join\\output");
 		
 
 		//作为整个Job的配置
