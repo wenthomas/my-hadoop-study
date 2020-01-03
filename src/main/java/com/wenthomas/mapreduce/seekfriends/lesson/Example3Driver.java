@@ -30,9 +30,9 @@ public class Example3Driver {
 public static void main(String[] args) throws Exception {
 		
 		//定义路径
-		Path inputPath=new Path("e:/mrinput/friend");
-		Path outputPath=new Path("e:/mroutput/friend");
-		Path finalOutputPath=new Path("e:/mroutput/finalfriend");
+		Path inputPath=new Path("E:\\1015\\my_data\\mr\\seekfriends");
+		Path outputPath=new Path("E:\\1015\\my_data\\mr\\seekfriends\\output");
+		Path finalOutputPath=new Path("E:\\1015\\my_data\\mr\\seekfriends\\finaloutput");
 		
 		//作为整个Job的配置
 		Configuration conf1 = new Configuration();
