@@ -4,6 +4,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
+import java.util.Arrays;
 
 /**
  * @author Verno
@@ -26,7 +27,17 @@ public class MySFMapper2 extends Mapper<Text, Text, Text, Text> {
 
     @Override
     protected void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-        super.map(key, value, context);
-        //todo: 编写map()
+        String[] users = value.toString().split(",");
+        //保证数组中的用户名有序
+        Arrays.sort(users);
+
+        v.set(key);
+        //将valuein切分后，两两拼接作为keyout
+        for (int i = 0; i <= users.length - 1; i++) {
+            for (int j = i + 1; j < users.length ; j++) {
+                k.set(users[i] + "-" + users[j]);
+                context.write(k, v);
+            }
+        }
     }
 }
