@@ -1,16 +1,8 @@
 package com.wenthomas.mapreduce.seekfriends;
 
-import com.wenthomas.mapreduce.flowcount.FlowBean;
-import com.wenthomas.mapreduce.flowcount.MyMapper;
-import com.wenthomas.mapreduce.flowcount.MyReducer;
-import com.wenthomas.mapreduce.index.MyIDMapper1;
-import com.wenthomas.mapreduce.index.MyIDMapper2;
-import com.wenthomas.mapreduce.index.MyIDReducer1;
-import com.wenthomas.mapreduce.index.MyIDReducer2;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
