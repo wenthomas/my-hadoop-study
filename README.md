@@ -26,7 +26,7 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/mapreduce/partition/)
 ### 5，自定义排序
 [案例](src/main/java/com/wenthomas/mapreduce/sort/)
-### 5，二次排序
+### 6，二次排序
 [案例](src/main/java/com/wenthomas/mapreduce/groupcompare/)<br/>
 可以有两种实现方式：<br/>
 [案例](src/main/java/com/wenthomas/mapreduce/groupcompare/MyComparator2.java)
@@ -35,3 +35,13 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/mapreduce/groupcompare/MyComparator1.java)
 方式2：实现RawComparator<br/>
 重写compare(byte[] b1, int s1, int l1, byte[] b2, int s2, int l2) 和 重写.compare(o1, o2)<br/>
+### 7，自定义输出格式
+[案例](src/main/java/com/wenthomas/mapreduce/outputformat/)<br/>
+### 8，Reduce Join的应用
+[案例](src/main/java/com/wenthomas/mapreduce/reducejoin/)<br/>
+### 9，Map Join的应用
+[案例](src/main/java/com/wenthomas/mapreduce/mapjoin/)<br/>
+### 10，倒排索引案例（多job串联）
+[案例](src/main/java/com/wenthomas/mapreduce/index/)<br/>
+### 11，找博客共同好友案例
+[案例](src/main/java/com/wenthomas/mapreduce/seekfriends/)<br/>
