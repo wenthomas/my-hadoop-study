@@ -45,3 +45,5 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/mapreduce/index/)<br/>
 ### 11，找博客共同好友案例
 [案例](src/main/java/com/wenthomas/mapreduce/seekfriends/)<br/>
+### 12，Hadoop文件压缩与解压缩
+[案例](src/main/java/com/wenthomas/mapreduce/compression/)<br/>
