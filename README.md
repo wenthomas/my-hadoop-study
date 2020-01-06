@@ -45,3 +45,8 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/mapreduce/index/)<br/>
 ### 11，找博客共同好友案例
 [案例](src/main/java/com/wenthomas/mapreduce/seekfriends/)<br/>
+## 三, ZooKeeper 操作使用
+### 1，ZK客户端及API
+[案例](src/main/java/com/wenthomas/zookeeper/test/)<br/>
+### 2，监听服务器节点动态上下线案例
+[案例](src/main/java/com/wenthomas/zookeeper/test/)<br/>
