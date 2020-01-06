@@ -49,4 +49,4 @@ hadoop学习练习
 ### 1，ZK客户端及API
 [案例](src/main/java/com/wenthomas/zookeeper/test/)<br/>
 ### 2，监听服务器节点动态上下线案例
-[案例](src/main/java/com/wenthomas/zookeeper/test/)<br/>
+[案例](src/main/java/com/wenthomas/zookeeper/nodemonitor/)<br/>
