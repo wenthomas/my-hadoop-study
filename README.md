@@ -52,3 +52,8 @@ hadoop学习练习
 [案例](src/main/java/com/wenthomas/zookeeper/test/)<br/>
 ### 2，监听服务器节点动态上下线案例
 [案例](src/main/java/com/wenthomas/zookeeper/nodemonitor/)<br/>
+
+## 四,HIVE案例编程
+### 1，ETL工具
+[案例](src/main/java/com/wenthomas/hive/guli/)<br/>
+
