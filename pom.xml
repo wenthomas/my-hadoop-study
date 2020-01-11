@@ -53,6 +53,14 @@
             <!-- same version with the zookeeper-->
             <version>3.4.10</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.hive/hive-exec -->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>

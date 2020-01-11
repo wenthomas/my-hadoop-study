@@ -56,4 +56,6 @@ hadoop学习练习
 ## 四,HIVE案例编程
 ### 1，ETL工具
 [案例](src/main/java/com/wenthomas/hive/guli/)<br/>
+### 2，自定义UDF函数
+[案例](src/main/java/com/wenthomas/hive/function/)<br/>
 
